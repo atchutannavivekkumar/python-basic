@@ -19,8 +19,9 @@
 PersonWeight = int(input("Enter your Weight: "))
 unitsWeight = str(input("If the weight is in kg enter K and if in Lbs enter L: "))
 
-if unitsWeight =="l":
+if unitsWeight.upper() =="l":
     PersonWeightlbs = PersonWeight/(2.2)
     print(PersonWeightlbs)
 else:
-    print(PersonWeight)
+    PersonWeightkg = PersonWeight*2.2
+    print(PersonWeightkg)
