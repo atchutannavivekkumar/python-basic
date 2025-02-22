@@ -16,12 +16,22 @@
 
 #excercise 3
 
-PersonWeight = int(input("Enter your Weight: "))
-unitsWeight = str(input("If the weight is in kg enter K and if in Lbs enter L: "))
+#PersonWeight = int(input("Enter your Weight: "))
+#unitsWeight = str(input("If the weight is in kg enter K and if in Lbs enter L: "))
 
-if unitsWeight.upper() =="l":
-    PersonWeightlbs = PersonWeight/(2.2)
-    print(PersonWeightlbs)
-else:
-    PersonWeightkg = PersonWeight*2.2
-    print(PersonWeightkg)
+#if unitsWeight.upper() =="l":
+#    PersonWeightlbs = PersonWeight/(2.2)
+ #   print(PersonWeightlbs)
+#else:
+#    PersonWeightkg = PersonWeight*2.2
+#   print(PersonWeightkg)
+
+#loops
+ #1 to 5
+i = 1
+
+while i <=5:
+    print(i)
+    i = i+1
+
+    
