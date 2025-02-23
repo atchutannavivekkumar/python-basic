@@ -19,6 +19,18 @@ def func4(num, x=1):
         result = num * result
     return result
 
+#multiarguments
+
+def func5(*args):
+    result = 0
+    for x in args:
+        result = result + x
+    return result
+
+
+
+
+
 #calling
 #func1()
 #print(func1())
@@ -30,4 +42,9 @@ def func4(num, x=1):
 #print(func3(4))
 
 #func4(2,3)
-print(func4(2,3))
+#print(func4(2,3))
+
+numt = int(input("enter a number: "))
+func5(1,2,3,4,5,6,numt)
+print(func5(1,2,3,4,5,6,numt)
+)
