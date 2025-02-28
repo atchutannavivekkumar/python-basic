@@ -31,16 +31,55 @@
 
 #Q4: Write a Python program that calculates the sum of all numbers from 1 to n, where n is given as input, using a while loop.
 
-num1 = int(input("Enter the no untill you want sum: "))
+#num1 = int(input("Enter the no untill you want sum: "))
 
-j=0
-i = 1
+#j=0
+#i = 1
 
-while i <= num1:
-    j = j+i  # Add current number to sum
-    i = i+1 
+#while i <= num1:
+ #   j = j+i  # Add current number to sum
+  #  i = i+1 
 
-print("The sum of 1 to {} is {}".format(num1,j))
+#print("The sum of 1 to {} is {}".format(num1,j))
 
 
     
+#Q5: Write a Python program that reverses a given number using a while loop.
+
+#For example:
+#Input: 12345
+#Output: 54321
+
+#n = int(input("Enter a number: "))  
+#reversed_num = 0  
+
+#while n > 0: 
+ #   last_digit = n % 10
+  #  reversed_num = reversed_num * 10 + last_digit 
+   # n = n // 10  
+
+#print("Reversed number:", reversed_num) 
+
+#question 6 
+#Q6: Write a Python program that checks if a given number is a palindrome using a while loop.
+
+#Example:
+
+#Input: 121 → Output: "Palindrome"
+#Input: 123 → Output: "Not a Palindrome"
+
+num1= int(input("Enter a number: "))
+reversed_num = 0
+
+while num1 >0:
+    last_digit = num1 % 10
+    reversed_num = reversed_num * 10 + last_digit
+    num1 = num1 // 10
+    
+print(reversed_num)
+if reversed_num == num1:
+    print("its a palindorome")
+else:
+    print("its not a palindrome")
+
+
